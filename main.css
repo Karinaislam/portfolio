@@ -63,58 +63,39 @@ html{
     border-bottom-left-radius: 250px; 
     overflow: hidden;
 }  
+ 
 
-/*.profilePic{
-     height:500px;
-     width:500px;
-     border-radius: 90px 0 0 90px;
-     background-image: url('profilePic.jpg');
-}
-*/
+.background  {
 
-/*.profilePic{
-    width: 300px;
-    height: 300px;
-    border-top-left-radius: 150px;  
-    border-top-left-radius: 150px; 
+    background-image: url('aboutme.jpg');
+
 }
 
-
-
-
-.profilePic {
-   position: absolute;
-   margin-top: 90px;
-   top:0px;
-   right: 0px;
-   border-radius: 50% 
-
-   border-top-left-radius: 250px;  
-   border-top-left-radius: 350px;
-    
-
-    overflow: hidden; 
-    
-    
-    }
-
-.profilePic img {
-  width: 100%;
-  height: auto;
-} 
-*/ 
-
-/* About Me */
 .aboutMe {
-
+    background-color: #ffffff;
+    opacity: 0.6;
+    padding: 20px;
     margin: auto;
-    height: 300px;
-    width: 500px;
-    /* border: black solid 5px;*/
+    height: 400px;
+    width: ;
+     
+   text-align: center;
+
+
+}
+/*
+.aboutMe {
+    padding: 20px;
+    background-image: url('aboutme.jpg');
+    background-color: transparent;
+    margin: auto;
+    height: 400px;
+    width: ;
+     border: black solid 5px;
    text-align: center;
 
 }
-
+*/
 
 /* Projects */
 
