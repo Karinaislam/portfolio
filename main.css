@@ -3,11 +3,27 @@ html{
     font-family: Helvetica;
 }
 
+section{
+    margin: 50px;
+}
 
+.icon-holder{
+    font-family: FontAwesome;
+    font-size: 25px;
+    /* fill:#0077b5; */
+}
+#github{
+    fill: #503487;
+}
+
+#linkedin{
+    fill: #0077b5;
+}
 /* Add a black background color to the top navigation */
 .navbar {
     background-color: #333;
     overflow: hidden;
+    padding-left: 50px;
 
 }
 
@@ -34,25 +50,96 @@ html{
     color: white;
 }
 
+
+.svg{
+    position: absolute;
+    z-index: 1;
+}
+svg {
+  height: 600px;
+  width: 700px;  
+ /*  border: 3px solid #eee; */
+  display: block;
+  margin: 1em auto;
+}
+p {
+  color: #aaa;
+  text-align: center;
+  margin: 2em 0;
+}
+
+
+
 /* Introduction */
 
 .myName{
     display: block;
-    margin: auto;
-    padding-top: 50px;
-    width: 70%;
+    margin: 0;
+    padding:0px;
+    width: 100%;
     height: 500px;
-   /* border: black solid 5px;*/
+   /* border: black solid 5px; */
     }
 
 .myName h1{
-    font-size: 350%;
+    font-size: 300%;
+    padding-top: 175px;
+    
+    
     }
+
+
+#pop-up{
+
+  top: -400px;
+    animation: drop 1s ease forwards; 
+
+}
+
+@keyframes drop{
+    0% {transform: translateY(-250px) }
+    70%{transform: translateY(0px)}
+    100% {transform: translateY(-5px)}
+
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+
+.typning{
+    animation: typingText 2s 2s steps(55) forwards, blink 0.5s infinite alternate;
+    overflow:hidden;
+    white-space: nowrap;
+    border-right: 3px solid black;
+    opacity: 0;
+}
+
+@keyframes typingText{
+    from{
+    width: 0;
+    opacity: 0;
+    }
+    to {
+    width:55ch;
+    opacity: 1;
+    }
+}
+
+
+@keyframes blink{
+    from{
+    border-color: transparent;
+    }
+    to {
+    border-color: black;
+    }
+}
+
 
 
 .profilePic{
     position: absolute;
-    top: 100px;
+    top: 0px;
     right: 0px;
     width: 500px;
     height: 500px;
@@ -62,40 +149,58 @@ html{
     border-top-left-radius: 250px;  
     border-bottom-left-radius: 250px; 
     overflow: hidden;
+    opacity: 0;
 }  
+
+@media screen and (max-width: 1240px){
+
+    .profilePic{
+        display:none;
+    }
+}
+
  
+#slide{
+    
+    animation: slide 1s 1s ease forwards;
+}
 
-.background  {
+@keyframes slide{
+    from {transform: translateX(500px)}
+    to{transform: translateX(50px)}
 
-    background-image: url('aboutme.jpg');
-
+    0% {opacity: 0}
+    100% {opacity: 1}
 }
 
 .aboutMe {
-    background-color: #ffffff;
-    opacity: 0.6;
-    padding: 20px;
-    margin: auto;
-    height: 400px;
-    width: ;
-     
-   text-align: center;
+    
 
+    padding: 100px;
+    background-color: #333b50;
+    margin: auto;
+    height: 250px;
+    width: ;
+   text-align: center;
+   color: white;
 
 }
-/*
-.aboutMe {
-    padding: 20px;
-    background-image: url('aboutme.jpg');
-    background-color: transparent;
-    margin: auto;
-    height: 400px;
-    width: ;
-     border: black solid 5px;
-   text-align: center;
 
+.aboutMe h1{
+    font-size: 150%;
 }
-*/
+
+
+.about{
+    animation: fade 2s 6s ease forwards;
+}
+
+@keyframes fade{
+    0%{opacity: 0};
+    100%{opacity: 1};
+}
+
+
 
 /* Projects */
 
