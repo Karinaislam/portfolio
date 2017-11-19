@@ -78,11 +78,17 @@ svg {
     padding:0px;
     width: 100%;
     height: 500px;
+    font-family: 'Poiret One', cursive;
    /* border: black solid 5px; */
     }
 
+.name {
+
+    font-size: 150%;
+}
+
 .myName h1{
-    font-size: 300%;
+    font-size: 200%;
     padding-top: 175px;
     
     
