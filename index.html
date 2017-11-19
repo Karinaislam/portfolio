@@ -32,21 +32,21 @@
 <!-- m337,404.33333l208,9.66667l42,-158l-64,-180l-248,-24l-184,60l24,90l-102,112l110,82c0,0 134,56.33333 134,56.33333c0,0 80,-48 80,-48 -->
 
 <div class="svg"><svg width="500" height="350" viewBox="0 0 500 350">
-  <path id="motionPath" fill="none" stroke="rgba(210, 202, 202, 0.01)" stroke-miterlimit="10" d="m301.32932,-38.38631c-45.15639,0 -83.91601,28.6503 -102.88817,70.01105c-7.57738,-5.17558 -15.93522,-8.30939 -24.855,-8.30939c-26.97372,0 -49.41969,26.54785 -56.35726,62.58566c-11.84156,-5.72634 -25.61002,-9.19337 -40.31713,-9.19337c-44.12136,0 -79.91172,29.53451 -79.91172,65.94478c0,32.86645 29.35285,59.8857 67.48423,64.88398c-1.709,3.54755 -3.03464,7.06062 -3.03464,10.78454c0,34.86088 78.065,63.29279 174.27403,63.29279c96.20901,0 174.27413,-28.43194 174.27403,-63.29279c0,-2.34556 -1.18995,-4.43879 -1.87857,-6.71824c4.21397,1.28212 8.3864,2.65195 13.00553,2.65195c25.73737,0.0001 46.67538,-21.39549 46.67538,-47.73483c0,-26.33935 -20.93801,-47.73481 -46.67538,-47.73481c-3.15405,0 -5.83598,1.33289 -8.81486,1.94476c2.60474,-10.53179 4.33516,-21.27809 4.33516,-32.70719c0,-69.72169 -51.58485,-126.40885 -115.31562,-126.40885l-0.00003,-0.00004z"/>
+  <path id="motionPath" fill="none" stroke="rgba(210, 202, 202, 0.01)" stroke-miterlimit="10" d="m-15.90083,300.52397l115.2236,0c0,0 -59.52337,-84.29053 29.06543,-85.62849c81.98349,-1.23808 72.66355,86.29759 46.71228,86.29759c-25.95125,0 -24.91318,-85.62862 42.56005,-85.62862c67.47331,0 77.85381,85.62838 40.48396,85.62838c-37.36976,0 -22.83709,-85.62838 43.59818,-85.62838c66.43523,0 79.92988,85.62862 38.40788,85.62862c-41.52204,0 -18.68495,-85.62862 46.71222,-85.62862c65.39724,0 57.0928,85.62838 35.29374,85.62838c-21.79904,0 111.07145,-0.66897 111.07145,-0.66897m-562.22794,-4.44335l13.07662,0l0,8.42728l-13.07662,0l0,-8.42728zm562.26571,0.37468l13.07662,0l0,8.42729l-13.07662,0l0,-8.42729z"/>
   
   <g  id="circle">
 	<circle r="20" cx="0" cy="0" fill="rgba(193, 66, 66, 0)" />
 	<a href="https://github.com/Karinaislam"><text class="icon-holder" id="github" x="-12" y="0">&#xf113;</text></a>
     
-  	<text class="icon-holder" id="linkedin" x="-12" y="30">&#xf08c;</text>
+<!--   	<text class="icon-holder" id="linkedin" x="-12" y="30">&#xf08c;</text> -->
   </g>
    
   <animateMotion 
            xlink:href="#circle"
-           dur="25s"
-           begin="2s"
+           dur="10s"
+           begin="5s"
            fill="freeze"
-           repeatCount="indefinite">
+           repeatCount="1">
     <mpath xlink:href="#motionPath" />
   </animateMotion>
 </svg>
@@ -57,8 +57,9 @@
 	<section id="home">
 		<div class="myName">
 			<div  id=pop-up>
-<h1>I'M <br>
-  <span class="typer" id="main" data-words="KARINA ISLAM,FRONT END DEVELOPER,INDUSTRIAL ENGINEER,DANCER" data-colors="black" data-delay="100" data-deleteDelay="1000"></span>
+
+<h1><span>HI! MY NAME IS KARINA </span><br>I'M 
+  <span class="typer" id="main" data-words="FRONT END DEVELOPER,INDUSTRIAL ENGINEER,DANCER" data-colors="black" data-delay="100" data-deleteDelay="1000"></span>
   <span class="cursor" data-owner="main"></span>
 </h1>
 
@@ -83,14 +84,16 @@
 		
 			<div class="aboutMe">
 
-			<h1>About Me</h1>
-			<br> 
-			<p class="about">Front End Developer with Industrial Engineering background. Learn to code all by myself and enjoy it because I love to give myself a treat after solving a bug. (challenging myself while debugging.)  To be up-to-date with the industry is my goal. Dancing is like the inner peace of mine. I like to help society that's why I've done many volunteer work for society & humanity.<br><br>
+			<span id="about">About Me</span>
+		
+			<p class="about">Front End Developer with Industrial Engineering degree. My passion drives me to the field of cyber and web development technology. I build responsive, intuitive ( UX/UI), dynamic websites. Making functional web pages for my clients and make them smile is what I love to do. Besides all of that I am a professional dancer, love to cook for others and have a dream to do something for the education of underprivileged children.<br>
+			If you'd like, scroll down to see some examples of my work!<br><br>
 
 	      	Fun fact: I don't watch TV, I don't drink coffee or tea.
 			</p>
-
-			<button>More About Me</button>
+			<br>
+			<button class="btn"><span>More About Me</span></button>
+			<br>
 			</div>
 		</div>
 	</section>
@@ -100,16 +103,162 @@
 
 
 	<section>
-		<div class="projects">
-		<p>
+		<!-- <div class="projects"> -->
+
+		<div class= Skills>	
+			<div class="skills">
+
+  <ul class="lines">
+    <li class="line l--0">
+      <span class="line__label title">
+        Skill level:
+      </span>
+    </li>
+    <li class="line l--25">
+      <span class="line__label">
+        The basics
+      </span>
+    </li>
+    <li class="line l--50">
+      <span class="line__label">
+        Advanced
+      </span>
+    </li>
+    <li class="line l--75">
+      <span class="line__label">
+        Seasoned
+      </span>
+    </li>
+    <li class="line l--100">
+      <span class="line__label">
+        Expert
+      </span>
+    </li>
+  </ul>
+  
+  <div class="charts">
+    <div class="chart chart--dev">
+      <span class="chart__title">Development</span>
+      <ul class="chart--horiz">
+        <li class="chart__bar" style="width: 98%;">
+          <span class="chart__label">
+            HTML5
+          </span>
+        </li>
+        <li class="chart__bar" style="width: 98%;">
+          <span class="chart__label">
+            CSS3 & SCSS
+          </span>
+        </li>
+        <li class="chart__bar" style="width: 70%;">
+          <span class="chart__label">
+            JavaScript
+          </span>
+        </li>
+        <li class="chart__bar" style="width: 40%;">
+          <span class="chart__label">
+            AngularJS
+          </span>
+        </li>
+        <li class="chart__bar" style="width: 40%;">
+          <span class="chart__label">
+            ReactJS
+          </span>
+        </li>
+        <li class="chart__bar" style="width: 60%;">
+          <span class="chart__label">
+            jQuery
+          </span>
+        </li>
+        <li class="chart__bar" style="width: 55%;">
+          <span class="chart__label">
+            NodeJS
+          </span>
+        </li>
+        <li class="chart__bar" style="width: 50%;">
+          <span class="chart__label">
+            Grunt / Gulp / Webpack
+          </span>
+        </li>
+        <li class="chart__bar" style="width: 40%;">
+          <span class="chart__label">
+            .NET
+          </span>
+        </li>
+        <li class="chart__bar" style="width: 60%;">
+          <span class="chart__label">
+            Umbraco
+          </span>
+        </li>
+        <li class="chart__bar" style="width: 60%;">
+          <span class="chart__label">
+            Sitecore
+          </span>
+        </li>
+      </ul>
+    </div>
+    
+
+
+    <div class="chart chart--prod">
+      <span class="chart__title">Productivity</span>
+      <ul class="chart--horiz">
+      <li class="chart__bar" style="width: 75%;">
+        <span class="chart__label">
+          Git + Github, Bitbucket & Sourcetree
+        </span>
+      </li>
+      <li class="chart__bar" style="width: 80%;">
+        <span class="chart__label">
+          Microsoft Office
+        </span>
+      </li>
+    </ul>
+    </div>
+    
+    <div class="chart chart--design">
+      <span class="chart__title">Design</span>
+      <ul class="chart--horiz">
+      <li class="chart__bar" style="width: 45%;">
+        <span class="chart__label">
+          Photoshop
+        </span>
+      </li>
+      <li class="chart__bar" style="width: 35%;">
+        <span class="chart__label">
+          Illustrator
+        </span>
+      </li>
+      <li class="chart__bar" style="width: 60%;">
+        <span class="chart__label">
+          User Experience
+        </span>
+      </li>
+    </ul>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+		<!-- <p>
 			Expertise :  JavaScript, HTML5, CSS3, React, Bootstrap, JQuery , Material Design UI <br>
 			Familiar :  Angular, Angular2, Redux, Node.js, Highchart, D3, Chrome Dev Tool. <br>
 			Tools: Git, Github, Sublime Text3, Visual Studio Code, Emmet<br>
 			Wishlist : MongoDB, MySQL, .NET<br>
-
+		
 			<h4>Slids of projects</h4>
 			https://codepen.io/gaearon/pen/wgedvV?editors=1100
-		</p>
+		</p> -->
 		</div>	
 	</section>
 
