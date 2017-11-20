@@ -182,7 +182,7 @@ svg {
 .aboutMe {
     
     padding: 70px;
-    background-image: linear-gradient(#4cb8c4, #3cd3ad);
+    background-image: linear-gradient(#085078, #85D8CE);
     margin: auto;
     height: 300px;
     width: ;
@@ -198,6 +198,8 @@ svg {
     text-transform: uppercase;
     
 }
+
+#8e0e00 #1f1c18
 
 
 .about{
@@ -350,10 +352,10 @@ svg {
 .chart--horiz {
   overflow: hidden;
 }
-.chart__bar {
+.chart__bar { 
   height: 30px;
   margin-bottom: 10px;
-  background: linear-gradient(to left, #4cb8c4, #3cd3ad);
+  background: linear-gradient(to left,#f7b733,#fc4a1a);
   border-radius: 4px;
   opacity: 0;
   animation: 1s anim-lightspeed-in ease forwards;
