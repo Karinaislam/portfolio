@@ -78,19 +78,20 @@ svg {
     padding:0px;
     width: 100%;
     height: 500px;
-    font-family: 'Combo', cursive;
+    
    /* border: black solid 5px; */
     }
 
 .name {
 
     font-size: 150%;
+    font-family: 'Combo', cursive;
 }
 
 .myName h1{
     font-size: 200%;
     padding-top: 135px;
-    
+     font-family: Satisfy, cursive;
     
     }
 
@@ -184,7 +185,7 @@ svg {
     padding: 70px;
     background-image: linear-gradient(#085078, #85D8CE);
     margin: auto;
-    height: 300px;
+    height: 330px;
     width: ;
    text-align: center;
    color: white;
@@ -193,17 +194,17 @@ svg {
 }
 
 #about{
-    font-size: 150%;
+    font-size: 35px;
     font-weight: bold;
     text-transform: uppercase;
     
 }
 
-#8e0e00 #1f1c18
 
 
 .about{
     animation: fade 2s 6s ease forwards;
+    font-size: 23px;
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
