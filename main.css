@@ -185,7 +185,7 @@ svg {
     padding: 70px;
     background-image: linear-gradient(#085078, #85D8CE);
     margin: auto;
-    height: 330px;
+    height: 370px;
     width: ;
    text-align: center;
    color: white;
@@ -448,6 +448,12 @@ svg {
      /* border: black solid 5px;*/
     text-align: center;
 
+}
+
+
+
+.projectHeading{
+  color: blue;
 }
 
 /* Contact */
