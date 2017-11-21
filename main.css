@@ -450,7 +450,11 @@ svg {
 
 }
 
-
+.ProjectSectionHead{
+  text-align: center;
+  padding: 20px;
+  
+}
 
 .projectHeading{
   color: blue;
