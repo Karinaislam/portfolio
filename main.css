@@ -309,19 +309,25 @@ svg {
 
 /* skills */
 
-
+.skillHead{
+  text-align: center;
+  margin: 50px 0px;
+  font-family: 'Kalam', cursive;
+  font-weight: bold;
+}
 
 
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 .Skills {
   margin-top: 20px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Kalam", sans-serif;
   color: #282828;
 }
 .skills ul li {
 
     list-style-type: none;
+    font-family: 'Kalam', cursive;
 }
 
 .skills {
@@ -498,6 +504,8 @@ svg {
 .ProjectSectionHead{
   text-align: center;
   padding: 50px;
+  font-family: Kalam;
+  font-weight: bold;
 
 }
 
