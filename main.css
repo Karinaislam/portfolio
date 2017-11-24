@@ -3,6 +3,16 @@ html{
     font-family: Helvetica;
 }
 
+.collapse {
+  font-family: 'Kalam', cursive;
+  margin-left: 40px;
+
+}
+
+.navbar .brand{
+  font-family: 'Kalam', cursive;
+}
+
 section{
     margin: 50px;
 }
@@ -231,7 +241,7 @@ svg {
     font-size: 35px;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: 'Maven Pro', cursive;
+        font-family: 'Neucha', cursive;
 }
 
 
@@ -243,7 +253,7 @@ svg {
     -moz-text-align-last: center;
     text-align-last: center;
     color: white;
-    font-family: 'Neucha', cursive;
+    font-family: 'Kalam', cursive;
     
 }
 
@@ -494,6 +504,12 @@ svg {
 .projectHeading{
   color: blue;
 }
+
+.carousel-indicators .active{
+  background-color: black;
+}
+
+
 
 /* Contact */
 
