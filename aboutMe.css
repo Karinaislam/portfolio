@@ -1,0 +1,13 @@
+.mainContent{
+	background-color: #d3d3d338;
+	padding-top: 50px;
+	margin-left:auto;
+	margin-right: auto;
+	width: 70%;
+	font-family: 'Kalam', cursive;
+}
+
+.subHead{
+	font-size: 30px;
+	font-weight: bold;
+}
