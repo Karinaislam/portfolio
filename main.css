@@ -228,12 +228,13 @@ svg {
 .aboutMe {
   
     padding: 70px;
-    /*background-image: linear-gradient(#085078, #85D8CE);*/
+    background-image: linear-gradient(115deg, #5b3c72 0%, #1488a5 100%);
+
     margin: auto;
-    background: #79deff91;
+    /*background: #79deff91;*/
     width: ;
    text-align: center;
-   color:#236995db;
+   color: white;
     
 
 }
@@ -253,7 +254,7 @@ svg {
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
-    color: #236995db;
+    color: white;
     font-family: 'Kalam', cursive;
     
 }
@@ -308,18 +309,17 @@ svg {
 */
 
 .btn{
- 
+ text-decoration: none;
   border-radius: 4px;
-  background-color: #0095f775;
-  height: 60px;
-  width: 330px;
+   color: white;
+  
 
 }
 
 .btnSpan{
    font-family: 'Kalam', cursive;
    font-size: 23px;
-}
+   color: white;
 
 /* skills */
 
