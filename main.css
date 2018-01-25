@@ -228,11 +228,12 @@ svg {
 .aboutMe {
   
     padding: 70px;
-    background-image: linear-gradient(#085078, #85D8CE);
+    /*background-image: linear-gradient(#085078, #85D8CE);*/
     margin: auto;
+    background: #79deff91;
     width: ;
    text-align: center;
-   color: white;
+   color:#236995db;
     
 
 }
@@ -247,22 +248,22 @@ svg {
 
 
 .about{
-    animation: fade 2s 6s ease forwards;
+   /* animation: fade 2s 6s ease forwards;*/
     font-size: 23px;
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
-    color: white;
+    color: #236995db;
     font-family: 'Kalam', cursive;
     
 }
 
-@keyframes fade{
+/*@keyframes fade{
     0%{opacity: 0};
     100%{opacity: 1};
-}
+}*/
 
-.btn {
+/*.btn {
   border: none;
   border-radius: 10px;
   display: block;
@@ -304,8 +305,21 @@ svg {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
+*/
 
+.btn{
+ 
+  border-radius: 4px;
+  background-color: #0095f775;
+  height: 60px;
+  width: 330px;
 
+}
+
+.btnSpan{
+   font-family: 'Kalam', cursive;
+   font-size: 23px;
+}
 
 /* skills */
 
