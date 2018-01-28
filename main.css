@@ -325,10 +325,13 @@ svg {
 /* skills */
 
 .skillHead{
-  text-align: center;
-  margin: 50px 0px;
-  font-family: 'Kalam', cursive;
-  font-weight: bold;
+     text-align: center;
+    margin: 150px 0px 50px 0px;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    background: #483365;
+    padding: 15px;
+    color: white;
 }
 
 
@@ -507,20 +510,24 @@ svg {
 
 
 /* Projects */
-
+/*
 .projects{
     margin: auto;
     
-     /* border: black solid 5px;*/
+      border: black solid 5px;
     text-align: center;
 
-}
+}*/
 
 .ProjectSectionHead{
-  text-align: center;
-  padding: 50px;
-  font-family: Kalam;
-  font-weight: bold;
+    text-align: center;
+    
+    margin: 250px 0px 50px 0px;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    background: #483365;
+    padding: 15px;
+    color: white;
 
 }
 
@@ -540,7 +547,7 @@ svg {
 /* Contact */
 
 .contacts{
-    padding-top: 40px;
+    padding-top: 100px;
     margin: auto;
     
     /* border: black solid 5px;*/
