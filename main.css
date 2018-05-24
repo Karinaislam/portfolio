@@ -232,7 +232,7 @@ svg {
 
     margin: auto;
     /*background: #79deff91;*/
-    width: ;
+    width:100% ;
    text-align: center;
    color: white;
     
@@ -242,8 +242,8 @@ svg {
 #about{
     font-size: 35px;
     font-weight: bold;
-    text-transform: uppercase;
-        font-family: 'Neucha', cursive;
+   
+    font-family: 'Kalam', cursive;
 }
 
 

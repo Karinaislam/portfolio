@@ -1,0 +1,39 @@
+.blogCard{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+
+.card{
+	margin: 0 20px;
+}
+
+.BlogPostCover{
+    width: 70%;
+   margin: 50px auto;
+}
+
+.coverImgBlog{
+    height:100%;
+    width: 100%;
+}
+
+.anchorInBody{
+    color:#4b94e2fc;
+}
+
+.qoutes{
+    font-style: italic;
+    font-size: 23px;
+    font-family: Open Sans;
+}
+
+.qouteBG{
+    background-color: #37d1ff26;
+    padding: 75px;
+}
+
+.Alexander{
+    margin:100px 0;
+    font-family: Open Sans;
+}
